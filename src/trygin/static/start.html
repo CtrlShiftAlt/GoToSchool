@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start</title>
+    <script src="https://lib.baomitu.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/static/js/start.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td valign="top" width="50%">
+                <form>
+                    <button id="open">Open</button>
+                    <button id="close">Close</button>
+                    <p>
+                        <input id="input" type="text" value="Hello world!">
+                        <button id="send">Send</button>
+                    </p>
+                </form>
+            </td>
+            <td valign="top" width="50%">
+                <div id="output"></div>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <form id="login" action="" method="post">
+        账号：<input type="text" id="username" name="username" value="">
+        密码：<input type="password" id="password" name="password" value="">
+        <input type="submit" value="登录">
+    </form>
+    <hr>
+    <form id="register" action="" method="post">
+        账号：<input type="text" id="username" name="username" value="">
+        密码：<input type="password" id="password" name="password" value="">
+        <input type="submit" value="注册">
+    </form>
+</body>
+
+</html>
