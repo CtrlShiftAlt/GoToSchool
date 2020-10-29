@@ -92,6 +92,7 @@ window.addEventListener("load", function (evt) {
             var self = this;
             this.timeoutObj = setTimeout(function () {
                 ws.send('{"event":"ping"}');
+                print('{"event":"ping"}')
                 self.serverTimeoutObj = setTimeout(function () {
                     print("js CLOSE");
                     ws.close();
